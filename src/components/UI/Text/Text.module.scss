@@ -1,0 +1,20 @@
+.Text {
+    font-size: 22px;
+    line-height: 27px;
+    color: #ffffff;
+}
+@media (max-width: 1500px) {
+    .Text {
+        font-size: 20px;
+    }
+}
+@media (max-width: 1200px) {
+    .Text {
+        font-size: 18px;
+    }
+}
+@media (max-width: 767px) {
+    .Text {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,64 @@
+.Contacts {
+    padding: 150px 0;
+}
+.ContactsBlock {
+    justify-content: space-between;
+    display: flex;
+    gap: 50px;
+}
+.ContactsContent {
+    flex: 0 1 50%;
+}
+.ContactsTitle {
+    margin-bottom: 30px;
+}
+.ContactsText {
+    margin-bottom: 35px;
+    max-width: 620px;
+}
+@media (max-width: 1500px) {
+    .Contacts {
+        padding: 120px 0;
+    }
+}
+@media (max-width: 1200px) {
+    .Contacts {
+        padding: 80px 0;
+    }
+    .ContactsTitle {
+        margin-bottom: 20px;
+    }
+    .ContactsText {
+        margin-bottom: 25px;
+        max-width: 500px;
+    }
+}
+@media (max-width: 992px) {
+    .Contacts {
+        padding: 70px 0;
+    }
+    .ContactsText {
+        margin-bottom: 25px;
+        max-width: 100%;
+    }
+    .ContactsContent {
+        flex: 0 1 100%;
+    }
+    .ContactsBlock {
+        justify-content: stretch;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+@media (max-width: 767px) {
+    .Contacts {
+        padding: 60px 0;
+    }
+    .ContactsTitle {
+        margin-bottom: 8px;
+    }
+    .ContactsText {
+        margin-bottom: 15px;
+    }
+}

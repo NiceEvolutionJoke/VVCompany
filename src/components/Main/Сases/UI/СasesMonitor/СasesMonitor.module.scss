@@ -1,0 +1,34 @@
+.casesMonitor {
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+}
+.casesMonitorMini {
+    position: relative;
+    & img {
+        max-width: 100%;
+    }
+}
+.casesMonitorBig {
+    & img {
+        max-width: 100%;
+    }
+    position: relative;
+}
+.casesMonitorBigIframe {
+    left: -40%;
+    /*   transform: translateX(-50%); */
+    top: -51%;
+    position: absolute;
+    /*     width: 77%;
+    height: 85%; */
+    width: 180%;
+    height: 198%;
+    transform: scale(0.433);
+    transform: scale(0.433);
+}
+@media (max-width: 1200px) {
+    .casesMonitorMini {
+        display: none;
+    }
+}

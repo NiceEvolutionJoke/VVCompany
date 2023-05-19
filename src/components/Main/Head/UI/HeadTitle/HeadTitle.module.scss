@@ -1,0 +1,30 @@
+.head__title {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 66px;
+    color: #ffffff;
+}
+@media (max-width: 1500px) {
+    .head__title {
+        font-size: 45px;
+        line-height: 52px;
+    }
+}
+@media (max-width: 1200px) {
+    .head__title {
+        font-size: 38px;
+        line-height: 50px;
+    }
+}
+@media (max-width: 992px) {
+    .head__title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+}
+@media (max-width: 767px) {
+    .head__title {
+        font-size: 26px;
+        line-height: 36px;
+    }
+}

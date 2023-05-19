@@ -1,0 +1,11 @@
+.header__logo {
+    margin-right: 20px;
+}
+@media (max-width: 767px) {
+    .header__logo {
+        & svg {
+            width: 120px;
+        }
+        height: 34px;
+    }
+}

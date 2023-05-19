@@ -1,0 +1,26 @@
+.Title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+    color: #ffffff;
+}
+@media (max-width: 1500px) {
+    .Title {
+        font-size: 38px;
+    }
+}
+@media (max-width: 1200px) {
+    .Title {
+        font-size: 34px;
+    }
+}
+@media (max-width: 992px) {
+    .Title {
+        font-size: 30px;
+    }
+}
+@media (max-width: 767px) {
+    .Title {
+        font-size: 30px;
+    }
+}

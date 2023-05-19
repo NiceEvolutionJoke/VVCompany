@@ -1,0 +1,61 @@
+.Stages {
+    padding: 150px 0;
+}
+.StagesBlock {
+}
+.Stages__items {
+    display: flex;
+    gap: 20px;
+}
+.StagesTitle {
+    margin-bottom: 30px;
+}
+.StagesText {
+    margin-bottom: 65px;
+}
+@media (max-width: 1500px) {
+    .Stages {
+        padding: 120px 0;
+    }
+    .StagesTitle {
+        margin-bottom: 25px;
+    }
+    .StagesText {
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 1300px) {
+    .Stages__items {
+        margin: 0 -20px;
+        padding: 0 20px;
+        padding-bottom: 20px;
+        overflow-y: scroll;
+    }
+}
+@media (max-width: 1200px) {
+    .Stages {
+        padding: 80px 0;
+    }
+}
+@media (max-width: 992px) {
+    .Stages {
+        padding: 70px 0;
+    }
+}
+@media (max-width: 767px) {
+    .StagesTitle {
+        white-space: nowrap;
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 10px;
+    }
+    .StagesText {
+        margin-bottom: 27px;
+    }
+    .Stages {
+        padding: 60px 0;
+    }
+    .Stages__items {
+        gap: 10px;
+    }
+}

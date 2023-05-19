@@ -1,0 +1,31 @@
+.head__subtitle {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 169.4%;
+    color: #ffffff;
+    margin-bottom: 70px;
+}
+@media (max-width: 1500px) {
+    .head__subtitle {
+        font-size: 38px;
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 1200px) {
+    .head__subtitle {
+        font-size: 30px;
+        margin-bottom: 35px;
+    }
+}
+@media (max-width: 992px) {
+    .head__subtitle {
+        font-size: 26px;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 767px) {
+    .head__subtitle {
+        font-size: 18px;
+        margin-bottom: 22px;
+    }
+}

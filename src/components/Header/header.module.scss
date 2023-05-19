@@ -1,0 +1,21 @@
+.header__block {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+}
+.header__links {
+    align-items: center;
+    gap: 70px;
+    display: flex;
+}
+@media (max-width: 1200px) {
+    .header__links {
+        gap: 30px;
+    }
+}
+@media (max-width: 992px) {
+    .header__links {
+        display: none;
+    }
+}

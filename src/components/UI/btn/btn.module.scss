@@ -1,0 +1,27 @@
+.btn {
+    background: #5685ff;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    cursor: pointer;
+    user-select: none;
+    flex: 0 1 50%;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    transition: 0.3s;
+    max-width: 250px;
+    border: 1px solid #5685ff;
+    &:hover {
+        background-color: #fff;
+        color: #5685ff;
+    }
+}
+@media (max-width: 1200px) {
+    .btn {
+        height: 60px;
+    }
+}

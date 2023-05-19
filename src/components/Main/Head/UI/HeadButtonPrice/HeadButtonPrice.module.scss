@@ -1,0 +1,22 @@
+.head__btn {
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    flex: 0 1 50%;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    transition: 0.3s;
+    border: 1px solid #5685ff;
+    &:hover {
+        color: #5685ff;
+    }
+}
+@media (max-width: 1200px) {
+    .head__btn {
+        height: 60px;
+    }
+}

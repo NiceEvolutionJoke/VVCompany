@@ -1,0 +1,78 @@
+.ContactsForm {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.ContactsFormInputBlock {
+}
+.ContactsFormSubTitle {
+    font-size: 20px;
+    line-height: 25px;
+    color: #b5c3db;
+    margin-bottom: 10px;
+}
+.ContactsFormInput {
+    height: 75px;
+    background: #353941;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 25px;
+}
+.ContactsFormButton {
+    background: #5685ff;
+    height: 70px;
+    width: 100%;
+    max-width: 250px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    border-radius: 12px;
+    border: 1px solid #5685ff;
+    transition: 0.3s;
+    &:hover {
+        background-color: #fff;
+        color: #5685ff;
+    }
+}
+@media (max-width: 1200px) {
+    .ContactsFormInput {
+        max-width: 500px;
+    }
+}
+@media (max-width: 992px) {
+    .ContactsFormInput {
+        max-width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .ContactsFormSubTitle {
+        font-size: 16px;
+        line-height: 20px;
+        color: #b5c3db;
+        margin-bottom: 5px;
+    }
+    .ContactsFormInput {
+        height: 50px;
+        border-radius: 7px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .ContactsForm {
+        gap: 20px;
+    }
+    .ContactsFormButton {
+        max-width: 100%;
+        font-size: 16px;
+        line-height: 20px;
+        height: 50px;
+        border-radius: 7px;
+    }
+}
